@@ -10,7 +10,7 @@ int hash_mid(int key, int table_size) {
     int m=(int)(s/pow(10,nod/2))%10;
     return m;
 }
-int hash_dight(int key,int table_size)
+int hash_digit(int key,int table_size)
 {
     int sum=0;
     while(key>0)
@@ -56,7 +56,7 @@ int main() {
         cout << "Key " << i + 1 << " :" << key <<"   ";
         cout << "Division : " << hash_division(key, table_size) <<"   ";
         cout << "Mid-square :" << hash_mid(key, table_size) <<"   ";
-        cout << "Digit Folding : " << hash_dight(key, table_size) <<"   ";
+        cout << "Digit Folding : " << hash_digit(key, table_size) <<"   ";
         cout << "Multiplication : " << hash_mul(key, table_size) <<"   ";
 
         cout << endl;
