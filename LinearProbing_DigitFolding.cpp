@@ -74,10 +74,13 @@ void LinearProbing::Display()
 
 int main() //driver code
 {
+    int n;
     cout<<"Enter Table Size  = ";
     cin>>TABLE_SIZE;
+    cout<<"Enter the number of inputs = ";
+    cin>>n;
     LinearProbing lp;
-    for (int i=0;i<TABLE_SIZE;i++)
+    for (int i=0;i<n;i++)
     {
         lp.Insert();
     }
