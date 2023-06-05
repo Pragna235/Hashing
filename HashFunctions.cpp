@@ -27,10 +27,11 @@ int hash_digit(int key,int table_size)
         sum=sum+key%10;
         key=key/10;
     }
-    return sum;
+    //return sum;
 
 
     }
+    return sum;
 }
 int hash_mul(int key, int table_size) {
 
